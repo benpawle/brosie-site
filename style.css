@@ -1,0 +1,385 @@
+@charset "UTF-8";
+
+html, body {
+    font-family: 'ArcherPro';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #26447D;
+}
+
+h1 {
+  font-family: 'ArcherPro';
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 6.6px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #26447D;
+  line-height: 45px;
+}
+
+h2 {
+  font-family: 'ArcherPro';
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #26447D;
+}
+
+h3 {
+  font-family: 'ArcherPro';
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #26447D;
+  line-height: 0px;
+}
+
+h4 {
+  font-family: 'ArcherPro';
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #26447D;
+  margin-bottom: 30px;
+}
+
+.location-text {
+  font-size: 20px;
+  padding-left:5vw;
+  padding-right:5vw;
+  font-weight: 600; 
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+
+a {
+  color: #26447D;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+a:hover {
+  color: #26447D;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+  opacity: 0.8;
+}
+a:link {
+  color: #26447D;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+a:visited {
+  color: #26447D;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+a:active {
+  color: #26447D;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+
+.wrapper{
+  max-width: 1000px;
+  text-align: center;
+}
+
+.hero-background {
+  background-image: url(images/hero-landscape.png);
+  position: relative;
+  min-height: 85vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-1 {
+  background-image: url(images/section-background-1.jpg);
+  position: relative;
+  min-height: 680px;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-1-mobile {
+  background-image: url(images/section-background-1-mobile.jpg);
+  position: relative;
+  min-height: 680px;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-2 {
+  background-image: url(images/section-background-2.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-2-mobile {
+  background-image: url(images/section-background-2-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-3 {
+  background-image: url(images/section-background-3.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 680px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-3-mobile {
+  background-image: url(images/section-background-3-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 680px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-4 {
+  background-image: url(images/weatherwarning.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 160px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-5 {
+  background-image: url(images/section-background-5.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-5-mobile {
+  background-image: url(images/section-background-3-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-6 {
+  background-image: url(images/section-background-6.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-6-mobile {
+  background-image: url(images/section-background-6-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-7 {
+  background-image: url(images/lakesvalley.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-8 {
+  background-image: url(images/section-background-1.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 680px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-8-mobile {
+  background-image: url(images/section-background-1-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 680px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-9 {
+  background-image: url(images/section-background-3.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-9-mobile {
+  background-image: url(images/section-background-3-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-10 {
+  background-image: url(images/bottomphoto.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-10-mobile {
+  background-image: url(images/bottomphoto-mobile.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-background-11 {
+  background-image: url(images/section-background-1.jpg);
+  position: relative;
+  width: 100vw;
+  min-height: 180px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.btn-openmaps {
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 20px;"
+}
