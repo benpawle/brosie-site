@@ -99,7 +99,7 @@ a:active {
 }
 
 .hero-background {
-  background-image: url(images/hero-landscape.png);
+  background-image: url(images/hero-landscape.jpg);
   position: relative;
   min-height: 85vh;
   -webkit-background-size: cover;
