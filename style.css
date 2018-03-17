@@ -7,6 +7,7 @@ html, body {
     line-height: 20px;
     text-align: center;
     color: #26447D;
+    overflow-x: hidden;
 }
 
 h1 {
